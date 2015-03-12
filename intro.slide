@@ -4,8 +4,14 @@ Tags: go golang
 
 Serkan Serttop
 IstanGopher
-serkanserttop@gmail.com
 @serkanserttop
+
+* Go
+.caption _Gopher_ by [[http://www.reneefrench.com][Renée French]]
+.image images/gopherswim.jpg _ 500
+
+* Başlangıç
+.image images/compiling.png
 
 * Struct Tanımlama
 - serkanserttop/sunum/istanbulcoders/tiplerim/yazılımcı.go
@@ -62,4 +68,14 @@ serkanserttop@gmail.com
 * Channel, İşçi - Main
 .play 12/12.go /^func main/,/^}/
 
+* Sonraki Adımlar
+- [[http://tur.a.golang.org.tr/]]
+- [[http://tour.golang.org/]]
+- [[https://gobyexample.com/]]
+- [[http://www.golang-book.com/]]
+- [[http://www.golangbootcamp.com/book/]]
+- [[http://godoc.org/]]
 
+- [[https://groups.google.com/forum/#!forum/golang-tr]]
+- [[https://plus.google.com/u/0/communities/101920753066440157216]]
+- [[http://golang.org.tr/]]
