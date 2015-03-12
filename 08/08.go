@@ -5,13 +5,16 @@ import "fmt"
 func yazdır(kanal chan int) {
 	for {
 		select {
-		case değer := <-kanal:
-			if değer == 0 {
-				fmt.Println("çıkış")
-				return
+		case değer, ok := <-kanal:
+			if ok == false {
+				fmt.Println("problem")
+			} else {
+				if değer == 0 {
+					fmt.Println("çıkış")
+					return
+				}
+				fmt.Println(değer)
 			}
-			fmt.Println(değer)
-		default:
 		}
 	}
 }

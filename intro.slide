@@ -40,9 +40,26 @@ serkanserttop@gmail.com
 * Goroutine - Göstermelik Çözüm
 .play 07/07.go
 
+* Goroutine - Channel ile Çözüm
+.play 07b/07b.go
+
 * Channel, Select
 .play 08/08.go /^func main/,/^}/
 .code 08/08.go /^func yazdır/,/^}/
 
+* Channel, Senkronizasyon
+.code 10/10.go /^func kanalIntanbul/,/^}/
+
+* Channel, Senkronizasyon - Main
+.play 10/10.go /^func main/,/^}/
+
+* Channel, Zaman Limitli
+.play 11/11.go /^func main/,/^}/
+
+* Channel, İşçi
+.code 12/12.go /^func işçi/,/^}/
+
+* Channel, İşçi - Main
+.play 12/12.go /^func main/,/^}/
 
 
