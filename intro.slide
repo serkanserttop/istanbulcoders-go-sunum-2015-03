@@ -1,0 +1,53 @@
+Golang'a Giriş
+12 Mart 2015
+Tags: go golang 
+
+Serkan Serttop
+Go Hobbyist
+serkanserttop@gmail.com
+@serkanserttop
+
+* Çıkış Noktası
+- 3 Silahşörler
+- Javascript, Go, Python, R
+.link http://www.golang.org/ Golang Homepage
+
+* Struct Tanımlama
+- serkanserttop/sunum/istanbulcoders/tiplerim/yazılımcı.go
+.code tiplerim/yazılımcı.go /^type İnsan/,/^}/
+.code tiplerim/yazılımcı.go /^type Yazılımcı/,/^}/
+
+* Struct Kullanımı - Uzun
+.play 03/03.go
+
+* Struct Kullanımı - Kısa
+.play 01/01.go
+
+* Struct, Pointer, Metot
+.code tiplerim/yazılımcı.go /^func \(yazılımcı \*Yazılımcı\) Değiştir/,/^}/
+.play 02/02.go
+
+* Lambda, Closure
+.play 04/04.go
+
+* Interface - http://tour.golang.org/methods/5
+.play reader-writer/reader-writer.go
+
+* Satisfy an Interface
+.code tiplerim2/yazılımcı.go /^func \(y İnsan/,/^}/
+.code tiplerim2/yazılımcı.go /^func \(y Yazılımcı/,/^}/
+.play 05/05.go
+
+* Goroutine - Erken Çıkış Hatası
+- Goroutine'nin bitmesini beklemek gerekiyor
+.play 06/06.go
+
+* Goroutine - Göstermelik Çözüm
+.play 07/07.go
+
+* Channel, Select
+.play 08/08.go /^func main/,/^}/
+.code 08/08.go /^func yazdır/,/^}/
+
+
+
